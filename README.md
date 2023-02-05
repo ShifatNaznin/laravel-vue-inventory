@@ -12,10 +12,6 @@ npm install
 ### Start the local development server
 npm run serve
 
-### Generate a new application key & storage link create
-php artisan key:generate <br>
-php artisan storage:link
-
 ### Copy the example env file and make the required configuration changes in the .env file
 .env.example to .env
 
@@ -26,6 +22,10 @@ DB_PASSWORD=your_password
 
 ### For Database create
 php artisan migrate
+
+### Generate a new application key & storage link create
+php artisan key:generate <br>
+php artisan storage:link
 
 ### Start the local development server
 php artisan serve
