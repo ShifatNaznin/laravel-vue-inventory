@@ -130,7 +130,7 @@
                                         </router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="" class="nav-link">
+                                        <router-link to="/all-employee" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>All Employee</p>
                                         </router-link>

@@ -3,6 +3,7 @@ let register = require('./components/auth/register').default;
 let forget = require('./components/auth/forget').default;
 let home = require('./components/home').default;
 let logout = require('./components/auth/logout').default;
+let allEmployee = require('./components/employee/index').default;
 let addEmployee = require('./components/employee/create').default;
 
 export const routes = [
@@ -11,5 +12,6 @@ export const routes = [
   { path: '/forget-password', component: forget, name: 'forget' },
   { path: '/home', component: home , name: 'home'},
   { path: '/logout', component: logout, name: 'logout' },
+  { path: '/all-employee', component: allEmployee, name: 'allEmployee' },
   { path: '/add-employee', component: addEmployee, name: 'addEmployee' },
 ]
